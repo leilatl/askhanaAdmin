@@ -1,0 +1,6 @@
+framework module Pods_AdminAskhanaApp {
+  umbrella header "Pods-AdminAskhanaApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

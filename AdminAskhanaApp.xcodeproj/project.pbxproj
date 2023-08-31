@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECF005E0FBB4F138B0C7848 /* Pods_AdminAskhanaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1197CA922362D442BDAF397 /* Pods_AdminAskhanaApp.framework */; };
+		4B8399CD28515DA600EF572E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8399CC28515DA600EF572E /* AppDelegate.swift */; };
+		4B8399CF28515DA600EF572E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8399CE28515DA600EF572E /* SceneDelegate.swift */; };
+		4B8399D128515DA600EF572E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8399D028515DA600EF572E /* ViewController.swift */; };
+		4B8399D428515DA600EF572E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8399D228515DA600EF572E /* Main.storyboard */; };
+		4B8399D728515DA600EF572E /* AdminAskhanaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B8399D528515DA600EF572E /* AdminAskhanaApp.xcdatamodeld */; };
+		4B8399D928515DA900EF572E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8399D828515DA900EF572E /* Assets.xcassets */; };
+		4B8399DC28515DA900EF572E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8399DA28515DA900EF572E /* LaunchScreen.storyboard */; };
+		4B8399E728515DA900EF572E /* AdminAskhanaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8399E628515DA900EF572E /* AdminAskhanaAppTests.swift */; };
+		4B8399F128515DA900EF572E /* AdminAskhanaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8399F028515DA900EF572E /* AdminAskhanaAppUITests.swift */; };
+		4B8399F328515DA900EF572E /* AdminAskhanaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8399F228515DA900EF572E /* AdminAskhanaAppUITestsLaunchTests.swift */; };
+		4B839A00285164A200EF572E /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8399FF285164A200EF572E /* TabController.swift */; };
+		4B839A02285165EF00EF572E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B839A01285165EF00EF572E /* RegisterViewController.swift */; };
+		4B839A04285166C000EF572E /* FoodNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B839A03285166C000EF572E /* FoodNetworkingService.swift */; };
+		4B839A062851688500EF572E /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B839A052851688500EF572E /* OrdersViewController.swift */; };
+		4B839A0828516CEA00EF572E /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B839A0728516CEA00EF572E /* RequestProvider.swift */; };
+		4B839A0A28516DB500EF572E /* OrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B839A0928516DB500EF572E /* OrdersTableViewCell.swift */; };
+		4B839A0C2851C80300EF572E /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B839A0B2851C80300EF572E /* BalanceViewController.swift */; };
+		4FF6660BB2E4B32DBC6991B0 /* Pods_AdminAskhanaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7978705CE69D2E67D74708EF /* Pods_AdminAskhanaAppTests.framework */; };
+		88AC66B974398D3B05CC8104 /* Pods_AdminAskhanaApp_AdminAskhanaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E628E59749463BFBAA4BF1B /* Pods_AdminAskhanaApp_AdminAskhanaAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8399E328515DA900EF572E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8399C128515DA600EF572E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8399C828515DA600EF572E;
+			remoteInfo = AdminAskhanaApp;
+		};
+		4B8399ED28515DA900EF572E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8399C128515DA600EF572E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8399C828515DA600EF572E;
+			remoteInfo = AdminAskhanaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B8399C928515DA600EF572E /* AdminAskhanaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdminAskhanaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8399CC28515DA600EF572E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B8399CE28515DA600EF572E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B8399D028515DA600EF572E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B8399D328515DA600EF572E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B8399D628515DA600EF572E /* AdminAskhanaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdminAskhanaApp.xcdatamodel; sourceTree = "<group>"; };
+		4B8399D828515DA900EF572E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B8399DB28515DA900EF572E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B8399DD28515DA900EF572E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8399E228515DA900EF572E /* AdminAskhanaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdminAskhanaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8399E628515DA900EF572E /* AdminAskhanaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAskhanaAppTests.swift; sourceTree = "<group>"; };
+		4B8399EC28515DA900EF572E /* AdminAskhanaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdminAskhanaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8399F028515DA900EF572E /* AdminAskhanaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAskhanaAppUITests.swift; sourceTree = "<group>"; };
+		4B8399F228515DA900EF572E /* AdminAskhanaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAskhanaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B8399FF285164A200EF572E /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		4B839A01285165EF00EF572E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4B839A03285166C000EF572E /* FoodNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNetworkingService.swift; sourceTree = "<group>"; };
+		4B839A052851688500EF572E /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		4B839A0728516CEA00EF572E /* RequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
+		4B839A0928516DB500EF572E /* OrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewCell.swift; sourceTree = "<group>"; };
+		4B839A0B2851C80300EF572E /* BalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
+		53C929369FFE022BD17CCCAC /* Pods-AdminAskhanaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminAskhanaApp.release.xcconfig"; path = "Target Support Files/Pods-AdminAskhanaApp/Pods-AdminAskhanaApp.release.xcconfig"; sourceTree = "<group>"; };
+		7978705CE69D2E67D74708EF /* Pods_AdminAskhanaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdminAskhanaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E628E59749463BFBAA4BF1B /* Pods_AdminAskhanaApp_AdminAskhanaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdminAskhanaApp_AdminAskhanaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E73265B59D8AD615DC6AD1A /* Pods-AdminAskhanaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminAskhanaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AdminAskhanaAppTests/Pods-AdminAskhanaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A40ECEEC83681077D42B59EC /* Pods-AdminAskhanaApp-AdminAskhanaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminAskhanaApp-AdminAskhanaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-AdminAskhanaApp-AdminAskhanaAppUITests/Pods-AdminAskhanaApp-AdminAskhanaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1197CA922362D442BDAF397 /* Pods_AdminAskhanaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdminAskhanaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3B83D28B7B1F4174E5F799 /* Pods-AdminAskhanaApp-AdminAskhanaAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminAskhanaApp-AdminAskhanaAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-AdminAskhanaApp-AdminAskhanaAppUITests/Pods-AdminAskhanaApp-AdminAskhanaAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF10F9DC43A4D14B745FB640 /* Pods-AdminAskhanaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminAskhanaAppTests.release.xcconfig"; path = "Target Support Files/Pods-AdminAskhanaAppTests/Pods-AdminAskhanaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5C90552702E1F5297BA2FD9 /* Pods-AdminAskhanaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminAskhanaApp.debug.xcconfig"; path = "Target Support Files/Pods-AdminAskhanaApp/Pods-AdminAskhanaApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8399C628515DA600EF572E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECF005E0FBB4F138B0C7848 /* Pods_AdminAskhanaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8399DF28515DA900EF572E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF6660BB2E4B32DBC6991B0 /* Pods_AdminAskhanaAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8399E928515DA900EF572E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AC66B974398D3B05CC8104 /* Pods_AdminAskhanaApp_AdminAskhanaAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8399C028515DA600EF572E = {
+			isa = PBXGroup;
+			children = (
+				4B8399CB28515DA600EF572E /* AdminAskhanaApp */,
+				4B8399E528515DA900EF572E /* AdminAskhanaAppTests */,
+				4B8399EF28515DA900EF572E /* AdminAskhanaAppUITests */,
+				4B8399CA28515DA600EF572E /* Products */,
+				6D6E87C87531DF0C48A0E3F5 /* Pods */,
+				6585FD7393D35112F15F63CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B8399CA28515DA600EF572E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8399C928515DA600EF572E /* AdminAskhanaApp.app */,
+				4B8399E228515DA900EF572E /* AdminAskhanaAppTests.xctest */,
+				4B8399EC28515DA900EF572E /* AdminAskhanaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B8399CB28515DA600EF572E /* AdminAskhanaApp */ = {
+			isa = PBXGroup;
+			children = (
+				4B8399CC28515DA600EF572E /* AppDelegate.swift */,
+				4B8399CE28515DA600EF572E /* SceneDelegate.swift */,
+				4B8399D028515DA600EF572E /* ViewController.swift */,
+				4B8399D228515DA600EF572E /* Main.storyboard */,
+				4B8399D828515DA900EF572E /* Assets.xcassets */,
+				4B8399DA28515DA900EF572E /* LaunchScreen.storyboard */,
+				4B8399DD28515DA900EF572E /* Info.plist */,
+				4B8399D528515DA600EF572E /* AdminAskhanaApp.xcdatamodeld */,
+				4B8399FF285164A200EF572E /* TabController.swift */,
+				4B839A01285165EF00EF572E /* RegisterViewController.swift */,
+				4B839A03285166C000EF572E /* FoodNetworkingService.swift */,
+				4B839A052851688500EF572E /* OrdersViewController.swift */,
+				4B839A0728516CEA00EF572E /* RequestProvider.swift */,
+				4B839A0928516DB500EF572E /* OrdersTableViewCell.swift */,
+				4B839A0B2851C80300EF572E /* BalanceViewController.swift */,
+			);
+			path = AdminAskhanaApp;
+			sourceTree = "<group>";
+		};
+		4B8399E528515DA900EF572E /* AdminAskhanaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8399E628515DA900EF572E /* AdminAskhanaAppTests.swift */,
+			);
+			path = AdminAskhanaAppTests;
+			sourceTree = "<group>";
+		};
+		4B8399EF28515DA900EF572E /* AdminAskhanaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8399F028515DA900EF572E /* AdminAskhanaAppUITests.swift */,
+				4B8399F228515DA900EF572E /* AdminAskhanaAppUITestsLaunchTests.swift */,
+			);
+			path = AdminAskhanaAppUITests;
+			sourceTree = "<group>";
+		};
+		6585FD7393D35112F15F63CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1197CA922362D442BDAF397 /* Pods_AdminAskhanaApp.framework */,
+				8E628E59749463BFBAA4BF1B /* Pods_AdminAskhanaApp_AdminAskhanaAppUITests.framework */,
+				7978705CE69D2E67D74708EF /* Pods_AdminAskhanaAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D6E87C87531DF0C48A0E3F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5C90552702E1F5297BA2FD9 /* Pods-AdminAskhanaApp.debug.xcconfig */,
+				53C929369FFE022BD17CCCAC /* Pods-AdminAskhanaApp.release.xcconfig */,
+				BE3B83D28B7B1F4174E5F799 /* Pods-AdminAskhanaApp-AdminAskhanaAppUITests.debug.xcconfig */,
+				A40ECEEC83681077D42B59EC /* Pods-AdminAskhanaApp-AdminAskhanaAppUITests.release.xcconfig */,
+				8E73265B59D8AD615DC6AD1A /* Pods-AdminAskhanaAppTests.debug.xcconfig */,
+				CF10F9DC43A4D14B745FB640 /* Pods-AdminAskhanaAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8399C828515DA600EF572E /* AdminAskhanaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8399F628515DA900EF572E /* Build configuration list for PBXNativeTarget "AdminAskhanaApp" */;
+			buildPhases = (
+				995DA63BB455EE977FB10E68 /* [CP] Check Pods Manifest.lock */,
+				4B8399C528515DA600EF572E /* Sources */,
+				4B8399C628515DA600EF572E /* Frameworks */,
+				4B8399C728515DA600EF572E /* Resources */,
+				C51264D1EFE504F65B11A4EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdminAskhanaApp;
+			productName = AdminAskhanaApp;
+			productReference = 4B8399C928515DA600EF572E /* AdminAskhanaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8399E128515DA900EF572E /* AdminAskhanaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8399F928515DA900EF572E /* Build configuration list for PBXNativeTarget "AdminAskhanaAppTests" */;
+			buildPhases = (
+				08C422004EB094957A02722D /* [CP] Check Pods Manifest.lock */,
+				4B8399DE28515DA900EF572E /* Sources */,
+				4B8399DF28515DA900EF572E /* Frameworks */,
+				4B8399E028515DA900EF572E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8399E428515DA900EF572E /* PBXTargetDependency */,
+			);
+			name = AdminAskhanaAppTests;
+			productName = AdminAskhanaAppTests;
+			productReference = 4B8399E228515DA900EF572E /* AdminAskhanaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B8399EB28515DA900EF572E /* AdminAskhanaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8399FC28515DA900EF572E /* Build configuration list for PBXNativeTarget "AdminAskhanaAppUITests" */;
+			buildPhases = (
+				9DB33451D838FBCC6EC75BDC /* [CP] Check Pods Manifest.lock */,
+				4B8399E828515DA900EF572E /* Sources */,
+				4B8399E928515DA900EF572E /* Frameworks */,
+				4B8399EA28515DA900EF572E /* Resources */,
+				787E1536ABD69E5D6D5E5623 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8399EE28515DA900EF572E /* PBXTargetDependency */,
+			);
+			name = AdminAskhanaAppUITests;
+			productName = AdminAskhanaAppUITests;
+			productReference = 4B8399EC28515DA900EF572E /* AdminAskhanaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8399C128515DA600EF572E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4B8399C828515DA600EF572E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					4B8399E128515DA900EF572E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 4B8399C828515DA600EF572E;
+					};
+					4B8399EB28515DA900EF572E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 4B8399C828515DA600EF572E;
+					};
+				};
+			};
+			buildConfigurationList = 4B8399C428515DA600EF572E /* Build configuration list for PBXProject "AdminAskhanaApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8399C028515DA600EF572E;
+			productRefGroup = 4B8399CA28515DA600EF572E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8399C828515DA600EF572E /* AdminAskhanaApp */,
+				4B8399E128515DA900EF572E /* AdminAskhanaAppTests */,
+				4B8399EB28515DA900EF572E /* AdminAskhanaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B8399C728515DA600EF572E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8399DC28515DA900EF572E /* LaunchScreen.storyboard in Resources */,
+				4B8399D928515DA900EF572E /* Assets.xcassets in Resources */,
+				4B8399D428515DA600EF572E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8399E028515DA900EF572E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8399EA28515DA900EF572E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08C422004EB094957A02722D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdminAskhanaAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787E1536ABD69E5D6D5E5623 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdminAskhanaApp-AdminAskhanaAppUITests/Pods-AdminAskhanaApp-AdminAskhanaAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdminAskhanaApp-AdminAskhanaAppUITests/Pods-AdminAskhanaApp-AdminAskhanaAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdminAskhanaApp-AdminAskhanaAppUITests/Pods-AdminAskhanaApp-AdminAskhanaAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		995DA63BB455EE977FB10E68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdminAskhanaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB33451D838FBCC6EC75BDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdminAskhanaApp-AdminAskhanaAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C51264D1EFE504F65B11A4EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdminAskhanaApp/Pods-AdminAskhanaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdminAskhanaApp/Pods-AdminAskhanaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdminAskhanaApp/Pods-AdminAskhanaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8399C528515DA600EF572E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B839A00285164A200EF572E /* TabController.swift in Sources */,
+				4B839A04285166C000EF572E /* FoodNetworkingService.swift in Sources */,
+				4B8399D128515DA600EF572E /* ViewController.swift in Sources */,
+				4B839A062851688500EF572E /* OrdersViewController.swift in Sources */,
+				4B8399D728515DA600EF572E /* AdminAskhanaApp.xcdatamodeld in Sources */,
+				4B839A02285165EF00EF572E /* RegisterViewController.swift in Sources */,
+				4B839A0828516CEA00EF572E /* RequestProvider.swift in Sources */,
+				4B8399CD28515DA600EF572E /* AppDelegate.swift in Sources */,
+				4B839A0A28516DB500EF572E /* OrdersTableViewCell.swift in Sources */,
+				4B839A0C2851C80300EF572E /* BalanceViewController.swift in Sources */,
+				4B8399CF28515DA600EF572E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8399DE28515DA900EF572E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8399E728515DA900EF572E /* AdminAskhanaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8399E828515DA900EF572E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8399F328515DA900EF572E /* AdminAskhanaAppUITestsLaunchTests.swift in Sources */,
+				4B8399F128515DA900EF572E /* AdminAskhanaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8399E428515DA900EF572E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8399C828515DA600EF572E /* AdminAskhanaApp */;
+			targetProxy = 4B8399E328515DA900EF572E /* PBXContainerItemProxy */;
+		};
+		4B8399EE28515DA900EF572E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8399C828515DA600EF572E /* AdminAskhanaApp */;
+			targetProxy = 4B8399ED28515DA900EF572E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B8399D228515DA600EF572E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8399D328515DA600EF572E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B8399DA28515DA900EF572E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8399DB28515DA900EF572E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8399F428515DA900EF572E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B8399F528515DA900EF572E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8399F728515DA900EF572E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C90552702E1F5297BA2FD9 /* Pods-AdminAskhanaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdminAskhanaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AdminAskhanaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B8399F828515DA900EF572E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C929369FFE022BD17CCCAC /* Pods-AdminAskhanaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdminAskhanaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AdminAskhanaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B8399FA28515DA900EF572E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E73265B59D8AD615DC6AD1A /* Pods-AdminAskhanaAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AdminAskhanaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdminAskhanaApp.app/AdminAskhanaApp";
+			};
+			name = Debug;
+		};
+		4B8399FB28515DA900EF572E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF10F9DC43A4D14B745FB640 /* Pods-AdminAskhanaAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AdminAskhanaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdminAskhanaApp.app/AdminAskhanaApp";
+			};
+			name = Release;
+		};
+		4B8399FD28515DA900EF572E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3B83D28B7B1F4174E5F799 /* Pods-AdminAskhanaApp-AdminAskhanaAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AdminAskhanaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdminAskhanaApp;
+			};
+			name = Debug;
+		};
+		4B8399FE28515DA900EF572E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40ECEEC83681077D42B59EC /* Pods-AdminAskhanaApp-AdminAskhanaAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AdminAskhanaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdminAskhanaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8399C428515DA600EF572E /* Build configuration list for PBXProject "AdminAskhanaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8399F428515DA900EF572E /* Debug */,
+				4B8399F528515DA900EF572E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8399F628515DA900EF572E /* Build configuration list for PBXNativeTarget "AdminAskhanaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8399F728515DA900EF572E /* Debug */,
+				4B8399F828515DA900EF572E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8399F928515DA900EF572E /* Build configuration list for PBXNativeTarget "AdminAskhanaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8399FA28515DA900EF572E /* Debug */,
+				4B8399FB28515DA900EF572E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8399FC28515DA900EF572E /* Build configuration list for PBXNativeTarget "AdminAskhanaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8399FD28515DA900EF572E /* Debug */,
+				4B8399FE28515DA900EF572E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B8399D528515DA600EF572E /* AdminAskhanaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B8399D628515DA600EF572E /* AdminAskhanaApp.xcdatamodel */,
+			);
+			currentVersion = 4B8399D628515DA600EF572E /* AdminAskhanaApp.xcdatamodel */;
+			path = AdminAskhanaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B8399C128515DA600EF572E /* Project object */;
+}
